@@ -37,25 +37,28 @@ public class Caneta {
     public void setPonta(float p) {
         this.ponta = p;
     }
+
     public boolean getTampar() {
         return this.tampar;
     }
-    public void setTampar(boolean t){
+
+    public void setTampar(boolean t) {
         this.tampar = t;
     }
 
-    public void Status(){
+    public void Status() {
         System.out.println("SOBRE A CANETA");
-        System.out.println("Modelo: "+this.modelo);
-        System.out.println("Cor: "+this.cor);
-        System.out.println("Ponta: "+this.ponta);
-        System.out.println("Tampada? "+this.tampar);
+        System.out.println("Modelo: " + this.modelo);
+        System.out.println("Cor: " + this.cor);
+        System.out.println("Ponta: " + this.ponta);
+        System.out.println("Tampada? " + this.tampar);
     }
 
-    public void destampar(){
+    public void destampar() {
         this.tampar = false;
     }
-    public void tampar(){
+
+    public void tampar() {
         this.tampar = true;
     }
 
